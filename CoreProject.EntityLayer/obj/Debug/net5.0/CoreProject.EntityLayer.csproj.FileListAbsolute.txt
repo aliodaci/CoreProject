@@ -1,0 +1,15 @@
+D:\source\repos\CoreProject\CoreProject.EntityLayer\bin\Debug\net5.0\CoreProject.EntityLayer.deps.json
+D:\source\repos\CoreProject\CoreProject.EntityLayer\bin\Debug\net5.0\CoreProject.EntityLayer.dll
+D:\source\repos\CoreProject\CoreProject.EntityLayer\bin\Debug\net5.0\CoreProject.EntityLayer.pdb
+D:\source\repos\CoreProject\CoreProject.EntityLayer\obj\Debug\net5.0\CoreProject.EntityLayer.csproj.AssemblyReference.cache
+D:\source\repos\CoreProject\CoreProject.EntityLayer\obj\Debug\net5.0\CoreProject.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\CoreProject\CoreProject.EntityLayer\obj\Debug\net5.0\CoreProject.EntityLayer.AssemblyInfoInputs.cache
+D:\source\repos\CoreProject\CoreProject.EntityLayer\obj\Debug\net5.0\CoreProject.EntityLayer.AssemblyInfo.cs
+D:\source\repos\CoreProject\CoreProject.EntityLayer\obj\Debug\net5.0\CoreProject.EntityLayer.csproj.CoreCompileInputs.cache
+D:\source\repos\CoreProject\CoreProject.EntityLayer\obj\Debug\net5.0\CoreProject.EntityLayer.dll
+D:\source\repos\CoreProject\CoreProject.EntityLayer\obj\Debug\net5.0\refint\CoreProject.EntityLayer.dll
+D:\source\repos\CoreProject\CoreProject.EntityLayer\obj\Debug\net5.0\CoreProject.EntityLayer.pdb
+D:\source\repos\CoreProject\CoreProject.EntityLayer\obj\Debug\net5.0\ref\CoreProject.EntityLayer.dll
+D:\source\repos\CoreProject\CoreProject.EntityLayer\bin\Debug\net5.0\CoreProject.EntityLayer.runtimeconfig.json
+D:\source\repos\CoreProject\CoreProject.EntityLayer\bin\Debug\net5.0\CoreProject.EntityLayer.runtimeconfig.dev.json
+D:\source\repos\CoreProject\CoreProject.EntityLayer\obj\Debug\net5.0\CoreProject.EntityLayer.genruntimeconfig.cache

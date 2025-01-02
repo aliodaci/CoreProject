@@ -1,0 +1,15 @@
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\bin\Debug\net5.0\CoreProject.BusinessLayer.deps.json
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\bin\Debug\net5.0\CoreProject.BusinessLayer.dll
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\bin\Debug\net5.0\CoreProject.BusinessLayer.pdb
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\obj\Debug\net5.0\CoreProject.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\obj\Debug\net5.0\CoreProject.BusinessLayer.AssemblyInfoInputs.cache
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\obj\Debug\net5.0\CoreProject.BusinessLayer.AssemblyInfo.cs
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\obj\Debug\net5.0\CoreProject.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\obj\Debug\net5.0\CoreProject.BusinessLayer.dll
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\obj\Debug\net5.0\refint\CoreProject.BusinessLayer.dll
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\obj\Debug\net5.0\CoreProject.BusinessLayer.pdb
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\obj\Debug\net5.0\ref\CoreProject.BusinessLayer.dll
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\bin\Debug\net5.0\CoreProject.BusinessLayer.runtimeconfig.json
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\bin\Debug\net5.0\CoreProject.BusinessLayer.runtimeconfig.dev.json
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\obj\Debug\net5.0\CoreProject.BusinessLayer.csproj.AssemblyReference.cache
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\obj\Debug\net5.0\CoreProject.BusinessLayer.genruntimeconfig.cache

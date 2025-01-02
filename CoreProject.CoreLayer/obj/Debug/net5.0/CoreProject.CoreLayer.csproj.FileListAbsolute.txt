@@ -1,0 +1,11 @@
+D:\source\repos\CoreProject\CoreProject.CoreLayer\bin\Debug\net5.0\CoreProject.CoreLayer.deps.json
+D:\source\repos\CoreProject\CoreProject.CoreLayer\bin\Debug\net5.0\CoreProject.CoreLayer.dll
+D:\source\repos\CoreProject\CoreProject.CoreLayer\bin\Debug\net5.0\CoreProject.CoreLayer.pdb
+D:\source\repos\CoreProject\CoreProject.CoreLayer\obj\Debug\net5.0\CoreProject.CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\CoreProject\CoreProject.CoreLayer\obj\Debug\net5.0\CoreProject.CoreLayer.AssemblyInfoInputs.cache
+D:\source\repos\CoreProject\CoreProject.CoreLayer\obj\Debug\net5.0\CoreProject.CoreLayer.AssemblyInfo.cs
+D:\source\repos\CoreProject\CoreProject.CoreLayer\obj\Debug\net5.0\CoreProject.CoreLayer.csproj.CoreCompileInputs.cache
+D:\source\repos\CoreProject\CoreProject.CoreLayer\obj\Debug\net5.0\CoreProject.CoreLayer.dll
+D:\source\repos\CoreProject\CoreProject.CoreLayer\obj\Debug\net5.0\refint\CoreProject.CoreLayer.dll
+D:\source\repos\CoreProject\CoreProject.CoreLayer\obj\Debug\net5.0\CoreProject.CoreLayer.pdb
+D:\source\repos\CoreProject\CoreProject.CoreLayer\obj\Debug\net5.0\ref\CoreProject.CoreLayer.dll
