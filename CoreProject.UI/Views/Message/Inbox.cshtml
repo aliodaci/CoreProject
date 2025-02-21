@@ -1,0 +1,29 @@
+﻿@using CoreProject.EntityLayer.Concrete
+@model List<MessageBox>
+@{
+    ViewData["Title"] = "Inbox";
+    Layout = "~/Views/Shared/_WriterLayout.cshtml";
+}
+
+<h1>Gelen Kutusu</h1>
+
+<table class="table tabel-bordred">
+    <tr>
+        <th>#</th>
+        <th>Konu</th>
+        <th>Gönderen</th>
+        <th>Tarih</th>
+        <th>Mesajı Aç</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Subject</td>
+            <td>@item.SenderUser.Name</td>
+            <td>@(((DateTime)item.MessageDate).ToString("MM/dd/yyyy"))</td>
+            <td><a href="/Message/MessageDetails/@item.Id" class="btn btn-warning">Mesaj Aç</a></td>
+        </tr>
+    }
+</table>
+<a href="/Message/SendMessage/" class="btn btn-primary">Yeni Mesaj Oluştur</a>

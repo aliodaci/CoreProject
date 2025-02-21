@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CoreProject.EntityLayer.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,9 @@ using System.Threading.Tasks;
 
 namespace CoreProject.BusinessLayer.Abstract
 {
-    public interface IBlogService
+    public interface IBlogService:IGenericService<Blog>
     {
+        List<Blog> GetBlogListWithCategory();
+        List<Blog> GetBlogListByWriter(int id);
     }
 }

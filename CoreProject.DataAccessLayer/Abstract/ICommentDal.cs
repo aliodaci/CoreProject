@@ -9,5 +9,6 @@ namespace CoreProject.DataAccessLayer.Abstract
 {
     public interface ICommentDal:IGenericRepository<Comment>
     {
+        List<Comment> GetListByWithBlog();
     }
 }

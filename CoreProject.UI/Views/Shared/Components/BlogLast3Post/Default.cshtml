@@ -1,0 +1,30 @@
+﻿@using CoreProject.EntityLayer.Concrete
+@model List<Blog>
+
+<div class="tech-btm">
+	
+	@foreach (var item in Model)
+	{
+		<h3>@item.Title</h3>
+		<div class="blog-grids row mb-3">
+			<div class="col-md-5 blog-grid-left">
+				<a href="/blog/details/@item.Id">
+					<img src="~/web/images/4.jpg" class="card-img-top img-fluid" alt="">
+				</a>
+			</div>
+			<div class="col-md-7 blog-grid-right">
+
+				<h5>
+					<a href="/blog/details/@item.Id">@item.Content.Substring(0,item.Content.Substring(0,10).LastIndexOf(" "))...</a>
+				</h5>
+				<div class="sub-meta">
+					<span>
+						<i class="far fa-clock"></i> @(((DateTime)item.CreateDate).ToString("MM/dd/yyyy"))
+					</span>
+				</div>
+			</div>
+
+		</div>
+	}
+	
+</div>

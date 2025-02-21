@@ -1,0 +1,44 @@
+﻿@model CoreProject.EntityLayer.Concrete.Writer
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_WriterLayout.cshtml";
+}
+
+<form class="form-group" method="post" enctype="multipart/form-data">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Yazar Profile Düzenleme</h4>
+                <div class="forms-sample">
+                    <div class="form-group">
+                        <label for="exampleInputName1">Yazar Adı-Soyadı</label>
+                        <input type="text" class="form-control" asp-for="Name" id="exampleInputName1" placeholder="Name">
+                        @Html.ValidationMessageFor(x => x.Name)
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail3">Email Adres</label>
+                        <input type="email" class="form-control" id="exampleInputEmail3" asp-for="Email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword4">Şifre</label>
+                        <input type="password" class="form-control" id="exampleInputPassword4" asp-for="Password" placeholder="Password">
+                        @Html.ValidationMessageFor(x => x.Password)
+                    </div>
+                    <div class="form-group">
+                        <label>Görsel</label>
+                        <input type="file" name="img[]" class="file-upload-default">
+                        <div class="input-group col-xs-12">
+                            <input type="file" class="form-control " asp-for="ImageUrl" placeholder="Upload Image">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleTextarea1">Yazar Hakkında</label>
+                        <textarea class="form-control" id="exampleTextarea1" asp-for="About" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-gradient-primary mr-2">Kaydet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+

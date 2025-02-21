@@ -16,3 +16,5 @@ D:\source\repos\CoreProject\CoreProject.DataAccessLayer\obj\Debug\net5.0\refint\
 D:\source\repos\CoreProject\CoreProject.DataAccessLayer\obj\Debug\net5.0\CoreProject.DataAccessLayer.pdb
 D:\source\repos\CoreProject\CoreProject.DataAccessLayer\obj\Debug\net5.0\CoreProject.DataAccessLayer.genruntimeconfig.cache
 D:\source\repos\CoreProject\CoreProject.DataAccessLayer\obj\Debug\net5.0\ref\CoreProject.DataAccessLayer.dll
+D:\source\repos\CoreProject\CoreProject.DataAccessLayer\bin\Debug\net5.0\CoreProject.CoreLayer.dll
+D:\source\repos\CoreProject\CoreProject.DataAccessLayer\bin\Debug\net5.0\CoreProject.CoreLayer.pdb

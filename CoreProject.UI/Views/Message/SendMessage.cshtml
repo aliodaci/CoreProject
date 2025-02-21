@@ -1,0 +1,23 @@
+﻿@model CoreProject.EntityLayer.Concrete.MessageBox
+@{
+    ViewData["Title"] = "SendMessage";
+    Layout = "~/Views/Shared/_WriterLayout.cshtml";
+}
+
+<h1>Yeni Mesaj</h1>
+<br />
+@using (Html.BeginForm("SendMessage", "Message", FormMethod.Post))
+{
+    @Html.Label("Alıcı")
+    @* @Html.TextBoxFor(x => x.Subject, new { @class = "form-control" }) *@
+    <input type="text" class="form-control" />
+
+    @Html.Label("Konu")
+    @Html.TextBoxFor(x => x.Subject, new { @class = "form-control" })
+    
+
+    @Html.Label("Mesajınız")
+    @Html.TextAreaFor(x => x.Details, 10, 3, new { @class = "form-control" })
+
+    <button class="btn btn-primary mt-2">Gönder</button>
+}

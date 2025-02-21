@@ -16,5 +16,9 @@ namespace CoreProject.EntityLayer.Concrete
         public string Email { get; set; }
         public string Password { get; set; }
         public bool Status { get; set; }
+        public List<Blog> Blogs { get; set; }
+
+        public virtual ICollection<MessageBox> WriterSender { get; set; }
+        public virtual ICollection<MessageBox> WriterReceiver { get; set; }
     }
 }

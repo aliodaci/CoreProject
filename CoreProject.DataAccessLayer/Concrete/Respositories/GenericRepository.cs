@@ -3,10 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoreProject.DataAccessLayer.Concrete.Respositories
+namespace CoreProject.DataAccessLayer.Concrete.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class, new()
     {
@@ -46,12 +47,20 @@ namespace CoreProject.DataAccessLayer.Concrete.Respositories
             }
         }
 
-        public void Update(T entity)
+		public List<T> GetAll(Expression<Func<T, bool>> filter)
+		{
+            using (var context=new Context())
+            {
+                return context.Set<T>().Where(filter).ToList();
+            }
+		}
+
+		public void Update(T entity)
         {
             using (var context=new Context())
             {
-                var updatedEntity = context.Entry(entity);
-                updatedEntity.State=EntityState.Modified;
+                var updatedEntity = context.Update(entity);
+                //updatedEntity.State= EntityState.Modified;
                 context.SaveChanges();
             }
         }

@@ -1,5 +1,5 @@
 ﻿using CoreProject.DataAccessLayer.Abstract;
-using CoreProject.DataAccessLayer.Concrete.Respositories;
+using CoreProject.DataAccessLayer.Concrete.Repositories;
 using CoreProject.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;

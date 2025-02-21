@@ -9,5 +9,7 @@ namespace CoreProject.DataAccessLayer.Abstract
 {
     public interface IBlogDal:IGenericRepository<Blog>
     {
+        List<Blog> GetListByWithCategory();
+        List<Blog> GetListWithCategoryByWriter(int id);
     }
 }

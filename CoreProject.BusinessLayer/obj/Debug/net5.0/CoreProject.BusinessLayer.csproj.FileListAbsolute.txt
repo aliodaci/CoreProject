@@ -13,3 +13,10 @@ D:\source\repos\CoreProject\CoreProject.BusinessLayer\bin\Debug\net5.0\CoreProje
 D:\source\repos\CoreProject\CoreProject.BusinessLayer\bin\Debug\net5.0\CoreProject.BusinessLayer.runtimeconfig.dev.json
 D:\source\repos\CoreProject\CoreProject.BusinessLayer\obj\Debug\net5.0\CoreProject.BusinessLayer.csproj.AssemblyReference.cache
 D:\source\repos\CoreProject\CoreProject.BusinessLayer\obj\Debug\net5.0\CoreProject.BusinessLayer.genruntimeconfig.cache
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\bin\Debug\net5.0\CoreProject.EntityLayer.dll
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\bin\Debug\net5.0\CoreProject.EntityLayer.pdb
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\obj\Debug\net5.0\CoreProj.4D007A66.Up2Date
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\bin\Debug\net5.0\CoreProject.DataAccessLayer.dll
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\bin\Debug\net5.0\CoreProject.DataAccessLayer.pdb
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\bin\Debug\net5.0\CoreProject.CoreLayer.dll
+D:\source\repos\CoreProject\CoreProject.BusinessLayer\bin\Debug\net5.0\CoreProject.CoreLayer.pdb

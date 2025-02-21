@@ -1,0 +1,23 @@
+﻿@model CoreProject.EntityLayer.Concrete.MessageBox
+
+@{
+    ViewData["Title"] = "MessageDetails";
+    Layout = "~/Views/Shared/_WriterLayout.cshtml";
+}
+
+<h1>Mesaj Detayları</h1>
+
+@using(Html.BeginForm("Inbox","Message",FormMethod.Post))
+{
+    @Html.Label("Message Id")
+    @Html.TextBoxFor(x=>x.Id,new{@class="form-control mt-2",@readonly="readonly"})
+
+    @Html.Label("Konu")
+    @Html.TextBoxFor(x => x.Subject, new { @class = "form-control", @readonly = "readonly" })
+
+    @Html.Label("İçerik")
+    @Html.TextAreaFor(x => x.Details, 20, 10, new { @class = "form-control", @readonly = "readonly" })
+
+    <button class="btn btn-success mt-2">Mesajlara Dön</button>
+}
+
